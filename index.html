@@ -36,11 +36,29 @@ layout: default
   </div>
 
   <div class="home-section">
+    <h4>Most recent post</h4>
+      <div class="blog-posts">
+        <header class="post-header">
+          <h2>
+            <a href="{{ site.posts.first.url }}">
+            {{ site.posts.first.title }}</a>
+          </h2>
+          <div class="post-byline">
+            <img src="{{ site.posts.first.gravatar }}">
+            <a href="{{ site.posts.first.authorTwitter }}"
+            class="social-link">Tw</a>
+            by: {{ site.posts.first.author }}
+            <span> - {{ site.posts.first.date | date: '%B %d, %Y' }}</span>
+          </div>
+        </header>
+        <div class="posts-image"
+        style="background-image:url({{ site.posts.first.postHero }})"></div>
+        {{ site.posts.first.excerpt }}
+      </div>
     <h2>More Motivation in Lorem</h2>
     <p>
       Cupcake ipsum dolor sit amet cupcake donut. Sweet roll jelly jelly beans fruitcake icing. Danish wafer candy canes danish pie. Oat cake ice cream sesame snaps ice cream halvah chupa chups apple pie gummies. Sweet roll macaroon jelly cake ice cream. Lemon drops cheesecake gummies oat cake soufflé. Gummi bears candy cheesecake sweet roll dragée cake.
     </p>
-
     <div class="bio-wrapper">
       <div class="bio-box">
         <img src="http://placekitten.com/g/400/400">
