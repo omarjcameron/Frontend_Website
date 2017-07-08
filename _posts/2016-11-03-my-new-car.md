@@ -1,7 +1,7 @@
 ---
 layout: post
 title: This is the title of the post
-postHero: /images/shark.jpg
+postHero: /images/ronald-gijezen-93356.jpg
 author: Me, Myself, and I
 authorTwitter: http://twitter.com/paxcameronus
 gravatar: https://avatars1.githubusercontent.com/u/25282546?v=3&s=400
