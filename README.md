@@ -1,8 +1,8 @@
-
+![Website Logo](https://github.com/omarjcameron/Frontend_Website/blob/master/images/Landing2.png)
 
 ### Synopsis
 
-
+A website focusing on front-end skills and catered design. I used this platform to practice advanced CSS techinques as well as Flexbox. 
 
 ### Motivation
 
